@@ -12,6 +12,7 @@ var ties = 0;
 //initiate prompt asking for user choice, store into user choice variable
 function checkUserChoice(){
     userChoice = prompt("Please enter your choice from r, p, s");
+    userChoice = userChoice.toLowerCase()
   if (userChoice == "r" || userChoice== "p" || userChoice == "s"){
   }
   else {
